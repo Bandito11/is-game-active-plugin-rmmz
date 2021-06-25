@@ -17,4 +17,3 @@ License is MIT, that just means use it in any product, be it commercial or other
 * If it asks to merge the file, do it. It will add the plugin directly to the plugins folder of your project.
 * Start the RMMZ app, open your project and follow the procedure to allow a plugin in your folder. 
 * Choose GameIsActive and after adding it, hit OK. (The plugins doesn't have any commands to enter)
-* 
