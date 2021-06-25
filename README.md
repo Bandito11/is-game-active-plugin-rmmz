@@ -1,4 +1,4 @@
-# Game-is-active-plugin
+# Game-is-active plugin for RPG MAKER MZ
 A plugin for RPG Maker MZ that fixes a bug when running it as a mobile app. Before when deploying to the mobile development as a Hybrid app you will see a black screen. That's because the app doesn't start until there's input from the player when the window is on top. But for some reason unknown to me, even receiving input it doesn't work. Well this plugin fixes that issue. 
 
 Issue was found and solved by yymess and his pals.
