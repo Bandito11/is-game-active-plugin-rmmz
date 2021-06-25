@@ -8,11 +8,11 @@ This plugin is an implementation of the fix as a plugin.
 
 License is MIT, that just means use it in any product, be it commercial or otherwise.
 
-##How to download
+## How to download
 * Hit the Green Code button 
 * Download as zip
 
-##How to add to project
+## How to add to project
 * Unzip file in the same directory as the js folder for the project
 * If it asks to merge the file, do it. It will add the plugin directly to the plugins folder of your project.
 * Start the RMMZ app, open your project and follow the procedure to allow a plugin in your folder. 
