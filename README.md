@@ -6,7 +6,7 @@ Issue was found and solved by yymess and his pals.
 
 This plugin is an implementation of the fix as a plugin.
 
-
+License is MIT, that just means use it in any product, be it commercial or otherwise.
 
 ##How to download
 * Hit the Green Code button 
