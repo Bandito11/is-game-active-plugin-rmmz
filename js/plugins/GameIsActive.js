@@ -15,14 +15,14 @@
  * There's no plugin commands to set.
  */
 
-(() => {
-  if (
-    navigator.userAgent.toLowerCase().match("iphone") ||
-    navigator.userAgent.toLowerCase().match("android") ||
-    navigator.userAgent.toLowerCase().match("ipad")
-  ) {
-    SceneManager.isGameActive = function () {
-      return true;
-    };
-  }
-})();
+if (
+  navigator.userAgent.toLowerCase().match('iphone') ||
+  navigator.userAgent.toLowerCase().match('android') ||
+  navigator.userAgent.toLowerCase().match('ipad')
+) {
+  const alias = SceneManager.isGameActive;
+  SceneManager.isGameActive = function () {
+    alias.apply(this, arguments);
+    return true;
+  };
+}
